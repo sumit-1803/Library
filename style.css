@@ -1,0 +1,85 @@
+nav {
+    background-color: #b48835;
+    color: #fff;
+    font-size: large;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #805721;
+  }
+  
+  .left , .right{
+    border: 5px solid #b48835;
+    border-radius: 15px;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .container{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .left{
+    
+    
+  }
+  body{
+    background-image: url(susan-q-yin-2JIvboGLeho-unsplash.jpg);
+    background-size: cover;
+  background-position: center;
+  
+  }
+  .leftimg{
+    width: 500px;
+    height: 500px;
+    margin: 2rem;
+    
+  }
+  button{
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+    font-size: medium;
+    border: none;
+    border-radius: 10px;
+    background-color: #f3bf5d;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #b48835;
+  }
+  .icon{
+    width: 2rem;
+    height: 2rem;
+  }
+  .heading{
+    margin-left: 28rem; font-weight:bold;
+  }
+  .anchor{
+    width: 0px;
+    margin-left: 180px;
+  }
+  .rightbtn{
+    width: 250px;
+  }
