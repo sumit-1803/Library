@@ -63,8 +63,12 @@ nav {
     font-size: medium;
     border: none;
     border-radius: 10px;
-    background-color: #f3bf5d;
+    background-color: #ffae15;
     cursor: pointer;
+  }
+  .formbtn{
+    border: 2px solid #805721;
+    background-color: white;
   }
   button:hover{
     background-color: #b48835;
@@ -83,3 +87,43 @@ nav {
   .rightbtn{
     width: 250px;
   }
+  .formheading{
+    display: flex;
+    justify-content: center;
+    
+  }
+  div.containerform{
+    background-color: #cbab6f;
+    
+  }
+  div{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #805721;
+    border-radius: 4px;
+  }
+  .left1,.right1{
+    padding: 5rem;
+    background-color: #ffae15;
+    margin: 140px;
+  }
+ 
+.container1{
+  width: 95rem;
+  height: 44.5rem;
+}
+input{
+  border-radius: 4px;
+  padding: 1rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+span{
+  font-size: 3.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: relative;
+  
+}
+.left1{
+}
