@@ -38,6 +38,7 @@ nav {
   .container{
     display: flex;
     justify-content: space-around;
+    height: 660px;
     
   }
   .left{
@@ -125,5 +126,23 @@ span{
   position: relative;
   
 }
-.left1{
+
+.lefta{
+  width: 0px;
+}
+.leftbtn{
+  width: 250px;
+  margin-left: 150px;
+}
+#c1{
+  padding: 22.25rem;
+  background-color: #ffae15 ;
+  
+}
+h1#h1{
+  display: flex;
+  justify-content: center;
+  color: orange;
+  border: 2px solid orange;
+  background-color: white;
 }
